@@ -7,6 +7,8 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-facts', '1.0.0'
 mod 'puppetlabs-pe_quick_data', '2.3.1'
 mod 'puppetlabs-exec', '0.8.0'
+mod 'teams-ui-testing-module',
+  :git => 'https://github.com/conormurraypuppet/teams-ui-testing-module'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
