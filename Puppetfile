@@ -10,6 +10,16 @@ mod 'puppetlabs-exec', '0.8.0'
 mod 'teams_ui_testing_module',
   :git    =>    'https://github.com/conormurraypuppet/teams-ui-testing-module'
 
+# these modules are required to install lidar
+mod 'puppetlabs-lidar',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-lidar',
+  :tag => '1.0.0-alpha'
+mod 'puppetlabs/inifile'
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/docker'
+mod 'puppetlabs/apt'
+
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
