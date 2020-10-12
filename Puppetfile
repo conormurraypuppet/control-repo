@@ -9,7 +9,7 @@ mod 'puppetlabs-pe_quick_data', '2.3.1'
 mod 'puppetlabs-exec', '0.8.0'
 mod 'puppetlabs-reboot', '3.0.0'
 mod 'teams_ui_testing_module',
-  :git    =>    'https://github.com/conormurraypuppet/teams-ui-testing-module'
+  :git    =>    'https://github.com/conormurraypuppet/teams-ui-testing-module/subdirectory'
 
 # these modules are required to install lidar
 mod 'puppetlabs-lidar',
