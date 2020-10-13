@@ -13,7 +13,7 @@ mod 'teams_ui_testing_module',
 
 # these modules are required to install lidar
 mod 'puppetlabs-lidar',
-  :git    => 'https://github.com/puppetlabs/puppetlabs-lidar',
+  :git    => 'git@github.com:puppetlabs/teams-ui-testing-module.git',
   :tag => '1.0.0-alpha'
 mod 'puppetlabs/inifile'
 mod 'puppetlabs/stdlib'
